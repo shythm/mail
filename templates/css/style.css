@@ -1,0 +1,30 @@
+h1{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 4vh;
+}
+p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 2.5vh;
+}
+input, select{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 2.5vh;
+  border: none;  
+  background-color: lightgray;
+}
+input:focus{
+  background-color: lightseagreen;
+}
+.submit{
+  width: 100%;
+}
+
+.name{
+    width: 4em;
+}
+.yyyy{
+    width: 2.5em;
+}
+.mmdd{
+    width: 1.5em;
+}
