@@ -1,7 +1,6 @@
 FROM ubuntu:18.04
 ENV LC_ALL=C.UTF-8
-EXPOSE 80
-EXPOSE 5000
+EXPOSE 80 5000
 
 RUN mkdir app && cd app
 
@@ -20,4 +19,4 @@ RUN pip3 install flask && pip3 install requests && pip3 install beautifulsoup4 &
 RUN apt-get -y install git
 
 # clone git & run flask app
-RUN git clone https://github.com/raculus/mail.git && cd mail && flask run
+RUN git clone https://github.com/raculus/mail.git && cd mail
